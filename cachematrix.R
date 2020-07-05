@@ -1,5 +1,5 @@
 ## These functions will perform a done operation will no longer be done when called again, but will return the result that
-## was previously defined and stored
+## was previously defined and stored.
 
 ## This function creates a special "matrix" object that can cache its inverse
 makeCacheMatrix <- function(x = matrix()) {
